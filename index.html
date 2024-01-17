@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+
+  <div class="box">
+
+    <div class="input-row">
+
+      <div class="input-group day-input">
+        <label for="dayi">DAY</label>
+        <input type="number" id="dayi" name="DAY">
+      </div>
+      
+      <div class="input-group month-input">
+        <label for="monthi">MONTH</label>
+        <input type="number" id="monthi" name="MONTH">
+      </div>
+
+      <div class="input-group year-input">
+        <label for="yeari">YEAR</label>
+        <input type="number" id="yeari" name="YEAR">
+      </div>  
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+
+    </div>
+
+    <div id="output">
+
+      <div class="output-element ">
+        <h1><span id="yearo">-- --</span> years</h1>
+      </div>
+
+      <div class="output-element ">
+        <h1><span id="montho">-- --</span> months</h1>
+      </div>
+
+      <div class="output-element ">
+        <h1><span id="dayo">-- --</span> days</h1>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>

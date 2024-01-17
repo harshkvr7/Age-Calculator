@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    background-image: url(./assets/images/pexels-pixabay-53594.jpg);
+    
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.box{
+    background-color: rgba(235, 238, 237, 0.315);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 20px;
+    margin-top: 10%;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+.input-row{
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid rgba(58, 58, 58, 0.432);
+    padding-bottom: 40px;
+    position: relative;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border:2px solid rgba(85, 85, 85, 0.651);
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+    font-size: 30px;
+}
+input:hover , input:focus{
+    border-width: 2px;
+    border-color: rgb(75, 104, 230);
+}
+.year-input{
+    margin-right: 90px;
+}
+svg {
+    position: absolute;
+    bottom: -30px; 
+    right: 0; 
+    background-color: rgb(49, 119, 248);
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+svg:hover{
+    cursor: pointer;
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 150%;
+}
+h1{
+    margin: 15px;
+}
+span{
+    color: rgb(40, 40, 247);
+}
+
